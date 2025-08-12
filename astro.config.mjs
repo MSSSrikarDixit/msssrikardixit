@@ -1,11 +1,9 @@
-import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
-import cloudflare from '@astrojs/cloudflare';
+import { defineConfig } from 'astro/config';
 
 export default defineConfig({
   integrations: [tailwind()],
   output: 'static',
-  adapter: cloudflare(),
   vite: {
     build: { chunkSizeWarningLimit: 2000 }
   }
