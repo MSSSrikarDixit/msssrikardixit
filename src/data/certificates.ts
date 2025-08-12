@@ -27,7 +27,7 @@ export const certificates: Cert[] = [
   { id: 'c13', title: 'Forensic Psychology: Witness Investigation', issuer: 'Institution', issued: '2023', driveLink: DRIVE },
   { id: 'c14', title: 'Music Theory Fundamentals', issuer: 'Institution', issued: '2023', driveLink: DRIVE },
   { id: 'c15', title: 'User Interface Design Principles', issuer: 'Institution', issued: '2023', driveLink: DRIVE },
-  { id: 'c16', title: 'Cosmology\'s Unsolved Problems', issuer: 'Institution', issued: '2023', driveLink: DRIVE },
+  { id: 'c16', title: 'Cosmologys Unsolved Problems', issuer: 'Institution', issued: '2023', driveLink: DRIVE },
   { id: 'c17', title: 'Beginner German', issuer: 'Institution', issued: '2023', driveLink: DRIVE },
   { id: 'c18', title: 'Grammar as a Meaning-Making Resource', issuer: 'Institution', issued: '2023', driveLink: DRIVE },
   { id: 'c19', title: 'The Nature of Imagination', issuer: 'Institution', issued: '2023', driveLink: DRIVE },
