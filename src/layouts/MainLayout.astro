@@ -1,0 +1,15 @@
+---
+const { SITE_TITLE } = await import('../config');
+---
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>{SITE_TITLE}</title>
+    <meta name="description" content="Portfolio & credentials — Missula S. S. S. R. Dixit" />
+  </head>
+  <body class="bg-slate-950 text-slate-100 antialiased selection:bg-sky-600 selection:text-white">
+    <slot />
+  </body>
+</html>

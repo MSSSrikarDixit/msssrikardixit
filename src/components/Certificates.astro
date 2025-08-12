@@ -1,0 +1,16 @@
+---
+import type { Cert } from '../data/certificates';
+import certificates from '../data/certificates';
+---
+<section id="certificates" class="max-w-5xl mx-auto p-6 mt-6">
+  <h2 class="text-xl font-semibold">Certificates</h2>
+  <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+    {certificates.map((c: Cert) => (
+      <article class="bg-gradient-to-br from-slate-900/70 to-slate-900/60 border border-slate-800 p-4 rounded-lg">
+        <h3 class="font-semibold text-slate-100">{c.title}</h3>
+        <div class="text-slate-400 text-sm mt-1">{c.issuer} • {c.issued}</div>
+        <a class="text-sky-400 mt-3 inline-block" href={c.driveLink}>View</a>
+      </article>
+    ))}
+  </div>
+</section>
